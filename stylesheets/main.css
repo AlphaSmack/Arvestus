@@ -114,4 +114,8 @@ body, #site-container, .blog-post, #site-content, #site-footer {
   border-top: 1px solid #333;
 }
 
+img{
+    height: auto;
+    width: 200px;
+}
 /*# sourceMappingURL=main.css.map */

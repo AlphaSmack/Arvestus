@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <LINK href="../stylesheets/main.css" rel="stylesheet" type="text/css">
   <?php include "../components/html-head.php"; ?>
 </head>
 
@@ -28,6 +29,14 @@ $rand_nr = rand(100, 200);
 
         <h2>Kõikide piltide väljastamine</h2>
         <!--  Sisesta siia kood -->
+          <?php
+            $i=1;
+          while ($i <= 12):
+            echo '<img src="http://users.khk.ee/kaspar.naaber/svp/periood-1/arvestus/images/'.$i.'.jpg">';
+              $i++;
+          endwhile;
+          ?>
+
       </section>
     </main>
 
