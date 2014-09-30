@@ -12,7 +12,13 @@
       <section id="site-content">
         <h2>Tingimuslause</h2>
         <!--  Sisesta siia kood -->
-
+          <?php
+$rand_nr = rand(100, 200);
+          if ($rand_nr>150){
+          echo "Juhuslik number ".$rand_nr." on suurem kui 150";}
+          else
+          echo "Juhuslik number ".$rand_nr." on väiksem kui 150."
+           ?>
         <h2>Juhuslik pilt</h2>
         <!--  Sisesta siia kood -->
 
