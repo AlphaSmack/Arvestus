@@ -1,3 +1,4 @@
+<?php include "site-data.php"; ?>
 <!-- Basic meta info -->
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
@@ -5,4 +6,4 @@
 <link rel="stylesheet" href="../stylesheets/main.css">
 
 <!-- Site title -->
-<title>SVP - Arvestustöö</title>
+<title><?php echo $site_html_title ?></title>
