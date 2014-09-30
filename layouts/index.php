@@ -10,7 +10,7 @@
 
     <main id="site-body">
       <section id="site-content">
-        <?php echo $index_content ?>
+        <?php echo $index_content; ?>
       </section>
     </main>
 

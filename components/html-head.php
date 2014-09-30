@@ -6,4 +6,4 @@
 <link rel="stylesheet" href="../stylesheets/main.css">
 
 <!-- Site title -->
-<title><?php echo $site_html_title ?></title>
+<title><?php echo $site_html_title; ?></title>
