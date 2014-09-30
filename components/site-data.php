@@ -30,4 +30,44 @@
       )
     )
   ;
+
+$members =
+  array(
+    array(
+       "name"=> "Kaspar Naaber",
+       "email"=> "kaspar.naaber@khk.ee",
+       "huvis"=> "Arvutid"
+    ),
+
+    array(
+        "name" => "Peeter Kartul",
+        "email" => "peeter.kartul@khk.ee",
+        "huvis" => "Jalgrattad"
+    ),
+
+    array(
+        "name"=> "Erki Nool",
+        "email"=> "erki.nool@khk.ee",
+        "huvis"=> "Jalgpall"
+    ),
+
+    array(
+        "name" => "Timo Tigu",
+        "email" => "timo.tigu@khk.ee",
+        "huvis" => "Raamatud"
+    ),
+
+    array(
+        "name" => "Silver Kuu",
+        "email" => "silver.kuu@khk.ee",
+        "huvis" => "Peod"
+    ),
+
+    array(
+        "name" => "Tauno Paike",
+        "email" => "tauno.paike@khk.ee",
+        "huvis" => "Peod"
+    )
+  )
+;
 ?>
